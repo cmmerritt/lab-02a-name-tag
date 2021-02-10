@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <label>
+        Your Name:
+        <input id="name-input">
+    </label>
+    <button id="name-change-button">Change It</button>
+
+    <label>
+        Your Pronouns:
+        <input id="pronoun-input">
+    </label>
+    <button id="pronoun-button">Change It</button>
+
     <main>
         <header>
             <h1>Hello</h1>
             <h2>my name is</h2>
         </header>
-        <section id ="name-tag">
-            <h3>Christiane (she/her)</h3>
+        <section>
+            <h3 id = "name-display">Christiane</h3>
+            <h3 id = "pronoun-display">she/her</h3>
         </section>
         <footer>
-
         </footer>
     </main>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
